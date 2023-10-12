@@ -16,3 +16,4 @@ debtap -P /tmp/pkg/gdotv.deb && cd /tmp/pkg/gdotv
 # https://wiki.archlinux.org/title/Arch_User_Repository#Sharing_and_maintaining_packages
 # https://wiki.archlinux.org/title/AUR_submission_guidelines
 # https://wiki.archlinux.org/title/AUR_submission_guidelines#Publishing_new_package_content
+# https://ashishkus.hashnode.dev/aur-and-publish-your-first-package-guide
