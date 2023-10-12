@@ -16,8 +16,7 @@ USER notroot
 
 # Install debtap - A script for converting .deb packages into Arch Linux packages - https://github.com/helixarch/debtap
 RUN cd debtap && \
-    makepkg -si --noconfirm && \
-    sudo debtap -u
+    makepkg -si --noconfirm
 
 USER root
 WORKDIR /pkg

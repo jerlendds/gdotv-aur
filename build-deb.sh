@@ -9,6 +9,7 @@ find /tmp/pkg -type d -exec chmod u+x {} \;
 cd /tmp/pkg
 curl -L -O https://download.gdotv.com/binaries/gdotv.deb 
 # Generate a PKGBUILD - https://wiki.archlinux.org/title/PKGBUILD - https://wiki.archlinux.org/title/Creating_packages - https://github.com/helixarch/debtap
+sudo debtap -u
 debtap -P /tmp/pkg/gdotv.deb && cd /tmp/pkg/gdotv
 # sudo -u notroot makepkg --printsrcinfo > .SRCINFO
 
